@@ -1,0 +1,20 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<DialogPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.DialogController">
+<headerText>
+    Search on EDIT TAP with First Name or Add New Person on ADD TAP!
+</headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+                <Label text="First Name" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="firstNameDialog" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                <Label text="Last Name"  GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="lastNameDialog" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+                <Label text="Phone Number"  GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <TextField fx:id="phoneNumberDialog" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+                <Label text="Short Note"  GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                <TextField fx:id="shortNoteDialog" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>
