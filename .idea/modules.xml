@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JAVAFXSimpleCodes.iml" filepath="$PROJECT_DIR$/JAVAFXSimpleCodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TableViewCRUDOperations.iml" filepath="$PROJECT_DIR$/TableViewCRUDOperations.iml" />
     </modules>
   </component>
 </project>
